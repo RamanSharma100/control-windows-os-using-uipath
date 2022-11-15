@@ -1,0 +1,63 @@
+{
+  "name": "project",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Speech.Recognition.Microphone": "[1.0.0]",
+    "SpeechLib.Synthesis": "[1.6.0]",
+    "System.Speech": "[7.0.0-rc.2.22472.3]",
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.GoogleSpeech.Activities": "[0.1.6850.39757]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.Python.Activities": "[1.6.0]",
+    "UiPath.System.Activities": "[22.4.1]",
+    "UiPath.UIAutomation.Activities": "[22.4.5]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "22.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": true
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "27ef31d8-a2e1-4960-96b3-a4b1307c109a",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
